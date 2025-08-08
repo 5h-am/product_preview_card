@@ -15,7 +15,7 @@ This is a solution to the [Product preview card component challenge on Frontend 
 
 ### Screenshot
 
-![Project Screenshot]()
+![Project Screenshot](https://github.com/5h-am/product_preview_card/blob/main/Screenshot%202025-08-08%20at%2017-29-09%20Gabrielle%20Essence%20Eau%20De%20Parfum.png?raw=True)
 
 
 ### Links
