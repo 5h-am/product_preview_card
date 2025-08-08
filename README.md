@@ -20,7 +20,7 @@ This is a solution to the [Product preview card component challenge on Frontend 
 
 ### Links
 
-- Live Site URL: [Product Preview Page]()
+- Live Site URL: [Product Preview Page](https://5h-am.github.io/product_preview_card/)
 
 ## My process
 
