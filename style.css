@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-inline-size: 100%;
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+:root{
+    --Black: hsl(212, 21%, 14%);
+    --Grey: hsl(228, 12%, 48%);
+    --Cream: hsl(30, 38%, 92%);
+    --White: hsl(0, 0%, 100%);
+    --Green500: hsl(158, 36%, 37%);
+    --Green700: hsl(158, 42%, 18%);
+}
+
+@media (min-width:720px) {
+    .product-preview-card {
+        display: grid;
+        grid-template-columns: 1fr 1fr;    
+    }
+}
+@media (max-width:480px) {
+    body{
+        font-size: 1.1rem;
+    }
+    main {
+        padding: 2rem 1.5rem;
+    }
+}
+
+body {
+    font-size: 0.9rem;
+    background-color: var(--Cream);
+    font-family: "Montserrat", sans-serif;
+    color: var(--Grey);
+    font-weight: 500;
+
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product-preview-card {
+    max-inline-size: 40rem;
+    inline-size: 90%;
+    background-color: var(--White);
+    margin-block: 1rem;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+picture img{
+    block-size: 100%;
+    inline-size: 100%;
+    object-fit: cover;
+    border-radius: 0;
+}
+
+h1 {
+    color: var(--Black);
+    font-family: "Fraunces";
+    font-weight: 700;
+    line-height: 1.1;
+    padding-block: 1rem 2rem;
+}
+
+.perfume {
+    letter-spacing: 5px;
+    padding-block: 0 10px;
+}
+main {
+    padding: 2rem;
+}
+
+.price {
+    display: flex;
+    gap: 1.5rem;
+    padding-top: 2rem;
+}
+.sale-price {
+    color: var(--Green500);
+    font-family: "Fraunces";
+    font-weight: 700;
+    font-size: 2rem;
+}
+.original-price {
+    text-decoration: line-through;
+    margin-top: 0.8rem;
+}
+
+.cart-button {
+    margin-top: 2rem;
+    display: flex;
+    padding: 1.5rem;
+    background-color: var(--Green500);
+    text-decoration: none;
+    color: var(--White);
+    justify-content: center;
+    gap: 0.5rem;
+    font-weight: 700;
+    border-radius: 10px;
+    transition: 0.4s all ease;
+}
+
+.cart-button:hover,
+.cart-button:focus-visible{
+    cursor: pointer;
+    background-color: var(--Green700);
+    transform: translate(-4px, -4px);
+}
+.introduction {
+    line-height: 1.9;
+    word-spacing: 2px;
+}
